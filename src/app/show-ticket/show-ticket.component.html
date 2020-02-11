@@ -1,0 +1,12 @@
+<p>-------------------------------------------------------------------------------------------------</p>
+<samp *ngIf='ticket'>
+    <table border="1px solid red">
+    <div *ngFor='let tickets of ticket'>
+     <tr>
+         <td style="width: 50px;"> {{tickets.ticketId}}</td>
+         <td style="width: 50px;">{{tickets.passangerName}}</td>
+     </tr>
+    </div>
+    </table>
+    <!-- {{ticket[2].passangerName}} -->
+</samp>
